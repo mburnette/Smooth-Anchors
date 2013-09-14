@@ -28,9 +28,9 @@ To change the scroll speed or top offset, simply pass the values in when initial
 	});
 
 <table>
-<tr><td>**option**</td><td>**default**</td></tr>
-<tr><td>topOffset</td><td>The top offset option determines the amoutn of space between where the page scrolls and the anchor's actual position, keeping text from touching the top of the browser window. _default: 50_</td></tr>
-<tr><td>scrollSpeed</td><td>The scroll speed option determines how fast (in milliseconds) the page will scroll on click. _default: 1000_</td></tr>
+<tr><td><strong>option</strong></td><td><strong>default</strong></td></tr>
+<tr><td><strong>topOffset</strong></td><td>The top offset option determines the amoutn of space between where the page scrolls and the anchor's actual position, keeping text from touching the top of the browser window. <em>default: 50</em></td></tr>
+<tr><td><strong>scrollSpeed</strong></td><td>The scroll speed option determines how fast (in milliseconds) the page will scroll on click. <em>default: 1000</em></td></tr>
 </table>
 
 _jQuery is required for this script to work._
