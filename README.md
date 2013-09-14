@@ -1,4 +1,4 @@
-#Smooth-Anchors
+#smoothAnchors.js
 
 ###Easy smooth scrolling to HTML anchors.
 
