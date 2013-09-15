@@ -7,7 +7,7 @@ With this plugin, you can easily set up smooth scrolling from your anchor tag to
 ##Demo
 
 Check out the demo on CodePen:
-<a href="http://codepen.io/mburnette/pen/gJyuD">Smooth Anchors Demo</a>
+<a href="http://codepen.io/mburnette/pen/gJyuD" target="_blank">Smooth Anchors Demo</a>
 
 ##Usage
 
