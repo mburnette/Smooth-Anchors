@@ -6,6 +6,13 @@ With this plugin, you can easily set up smooth scrolling from your anchor tag to
 
 ***
 
+##Demo
+
+Check out the demo on CodePen:
+<a href="http://codepen.io/mburnette/pen/gJyuD">Smooth Anchors Demo</a>
+
+***
+
 ##Usage
 
 To use the plugin:
@@ -17,6 +24,8 @@ To use the plugin:
 2- Initialize the plugin (Using the selector provided is recommended, but not required.)
 
 	$('a[href^=#]').smoothAnchors();
+
+***
 
 ##Options
 
