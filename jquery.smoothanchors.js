@@ -1,4 +1,4 @@
-$.fn.smoothAnchors = function(options){
+jQuery.fn.smoothAnchors = function(options){
 
 	var defaults = {
 
@@ -7,18 +7,18 @@ $.fn.smoothAnchors = function(options){
 
 	};
 
-	var config = $.extend(defaults, options);
+	var config = jQuery.extend(defaults, options);
 
 	this.each(function(){
 
-		$(this).click(function(e){
-			var el = $(this),
+		jQuery(this).click(function(e){
+			var el = jQuery(this),
 				elLink = el.attr("href");
 
 			// ----- trigger if link isn't just # (placeholder href) -----
 			if(elLink != '#'){
 				var lmntName = elLink.replace('#',''),
-					lmnt = $('a[name='+lmntName+']');
+					lmnt = jQuery('a[name='+lmntName+']');
 
 					// ----- find top offset of target element -----
 				var scrollAmt = lmnt.offset().top;
@@ -27,11 +27,12 @@ $.fn.smoothAnchors = function(options){
 				console.log(scrollAmt);
 
 				// ----- animate to target element (minus topOffset) -----
-				$('html,body').animate({ scrollTop: scrollAmt }, config.scrollSpeed);
+				jQuery('html,body').animate({ scrollTop: scrollAmt }, config.scrollSpeed);
+				
+				// ----- prevent default click action -----
+				e.preventDefault();
 			}
 
-			// ----- prevent default click action -----
-			e.preventDefault();
 		});
 
 	});
